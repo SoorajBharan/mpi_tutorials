@@ -1,0 +1,3 @@
+/home/bharan/computation/tutorials/mpi_tutorials/step_4/build/CMakeFiles/step_4.dir
+/home/bharan/computation/tutorials/mpi_tutorials/step_4/build/CMakeFiles/edit_cache.dir
+/home/bharan/computation/tutorials/mpi_tutorials/step_4/build/CMakeFiles/rebuild_cache.dir
