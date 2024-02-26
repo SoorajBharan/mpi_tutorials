@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/step_2.dir/step_2.cpp.o -o step_2  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+/usr/bin/c++ CMakeFiles/step_2.dir/step_2.cpp.o CMakeFiles/step_2.dir/display.cpp.o -o step_2  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 

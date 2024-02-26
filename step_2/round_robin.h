@@ -13,11 +13,12 @@ round_robin(int rank, int procs)
 	int rank_next = (rank+1) % procs;
 	int rank_prev = rank == 0 ? procs-1 : rank-1;
 
+
 	MPI_Status status;
 
 	srand(time(NULL) + rank);
 	rand_mine = rand() / (RAND_MAX / 100);
-	display(rank, " | generated : ", rand_mine);
+	display(rank, " generated : ", rand_mine);
 
 	if(rank % 2 == 0)
 	{
@@ -36,20 +37,20 @@ round_robin(int rank, int procs)
 			1,
 			MPI_COMM_WORLD,
 			&status);
-		display(rank, "received ", rand_prev, " from ", rank_prev);
-		displayMPIStatus(rank,status);
+		display(rank, " received ", rand_prev, " from ", rank_prev);
+	//	displayMPIStatus(rank,status);
 	}
 	else {
 		MPI_Recv((void *) &rand_prev,
 			1,
 			MPI_LONG,
-			rand_prev,
+			rank_prev,
 			1,
 			MPI_COMM_WORLD,
 			&status);
 		
-		display(rank, "received ", rand_prev, " from ", rank_prev);
-		displayMPIStatus(rank,status);
+		display(rank, " will received ", rand_prev, " from ", rank_prev);
+	//	displayMPIStatus(rank,status);
 		
 		MPI_Send((void *) &rand_mine,
 			1,

@@ -1,0 +1,20 @@
+Rank : 0
+Rank : 0 generated : 69
+Rank : 0 sending 69 to 1
+Rank : 0 received 77 from 3
+Rank : 0 exiting
+Rank : 1
+Rank : 1 generated : 54
+Rank : 1 will received 69 from 0
+Rank : 1 sending 54 to 2
+Rank : 1 exiting
+Rank : 2
+Rank : 2 generated : 91
+Rank : 2 sending 91 to 3
+Rank : 2 received 54 from 1
+Rank : 2 exiting
+Rank : 3
+Rank : 3 generated : 77
+Rank : 3 will received 91 from 2
+Rank : 3 sending 77 to 0
+Rank : 3 exiting

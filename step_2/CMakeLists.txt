@@ -6,7 +6,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 find_package(MPI)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
-add_executable(step_2 step_2.cpp display.h round_robin.h)
+add_executable(
+	step_2
+	step_2.cpp
+	display.h
+	display.cpp
+	round_robin.h)
 
 include_directories(${MPI_CXX_INCLUDE_DIRS})
 

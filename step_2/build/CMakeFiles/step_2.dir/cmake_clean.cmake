@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/step_2.dir/display.cpp.o"
+  "CMakeFiles/step_2.dir/display.cpp.o.d"
   "CMakeFiles/step_2.dir/step_2.cpp.o"
   "CMakeFiles/step_2.dir/step_2.cpp.o.d"
   "step_2"

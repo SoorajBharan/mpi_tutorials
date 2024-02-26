@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <sstream>
+#include <mpi.h>
 
 template<typename... Args>
 void display(int rank, const Args&... args)
