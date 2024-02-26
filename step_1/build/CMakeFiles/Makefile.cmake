@@ -46,7 +46,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/FindMPI/test_mpi.cpp"
   "CMakeFiles/FindMPI/test_mpi.cpp"
-  "CMakeFiles/FindMPI/test_mpi.cpp"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

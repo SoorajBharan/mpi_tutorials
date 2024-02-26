@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bharan/computation/tutorials/mpi/step_1/step_1.cpp" "CMakeFiles/step_1.dir/step_1.cpp.o" "gcc" "CMakeFiles/step_1.dir/step_1.cpp.o.d"
+  "/home/bharan/computation/tutorials/mpi/mpi_tutorials/step_1/step_1.cpp" "CMakeFiles/step_1.dir/step_1.cpp.o" "gcc" "CMakeFiles/step_1.dir/step_1.cpp.o.d"
   )
 
 # Targets to which this target links.
