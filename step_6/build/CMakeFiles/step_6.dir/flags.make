@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/bharan/computation/tutorials/mpi_tutorials/step_5 -I/usr/lib/x86_64-linux-gnu/openmpi/include -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi
+CXX_INCLUDES = -I/home/bharan/computation/tutorials/mpi_tutorials/step_6 -I/usr/lib/x86_64-linux-gnu/openmpi/include -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi
 
 CXX_FLAGS = -std=gnu++17
 

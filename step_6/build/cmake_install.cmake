@@ -1,4 +1,4 @@
-# Install script for directory: /home/bharan/computation/tutorials/mpi_tutorials/step_5
+# Install script for directory: /home/bharan/computation/tutorials/mpi_tutorials/step_6
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/bharan/computation/tutorials/mpi_tutorials/step_5/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/bharan/computation/tutorials/mpi_tutorials/step_6/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

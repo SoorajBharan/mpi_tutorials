@@ -18,15 +18,16 @@ main (int argc, char **argv)
 	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
 	matrix_vector::start_time = std::chrono::high_resolution_clock::now();
-	matrix_vector::display(rank);
+	// matrix_vector::display(rank);
 
 	matrix_vector::init_matrix(rank,num_procs);
+	matrix_vector::vmult(rank,num_procs,matrix_vector::a,matrix_vector::b,matrix_vector::c);
 	matrix_vector::print_matrix(rank,num_procs,matrix_vector::a);
 	std::cout<<'\n';
 	matrix_vector::print_vector(rank,num_procs,matrix_vector::b);
-	std::cout<<'\n';
+	matrix_vector::print_vector(rank,num_procs,matrix_vector::c);
 
-	matrix_vector::display(rank, " exiting");
+	// matrix_vector::display(rank, " exiting");
 
 	MPI_Finalize();
 

@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bharan/computation/tutorials/mpi_tutorials/step_5
+CMAKE_SOURCE_DIR = /home/bharan/computation/tutorials/mpi_tutorials/step_6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bharan/computation/tutorials/mpi_tutorials/step_5/build
+CMAKE_BINARY_DIR = /home/bharan/computation/tutorials/mpi_tutorials/step_6/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bharan/computation/tutorials/mpi_tutorials/step_5/build/CMakeFiles /home/bharan/computation/tutorials/mpi_tutorials/step_5/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bharan/computation/tutorials/mpi_tutorials/step_6/build/CMakeFiles /home/bharan/computation/tutorials/mpi_tutorials/step_6/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bharan/computation/tutorials/mpi_tutorials/step_5/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bharan/computation/tutorials/mpi_tutorials/step_6/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named step_5
+# Target rules for targets named step_6
 
 # Build rule for target.
-step_5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 step_5
-.PHONY : step_5
+step_6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 step_6
+.PHONY : step_6
 
 # fast build rule for target.
-step_5/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/step_5.dir/build.make CMakeFiles/step_5.dir/build
-.PHONY : step_5/fast
+step_6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/step_6.dir/build.make CMakeFiles/step_6.dir/build
+.PHONY : step_6/fast
 
-step_5.o: step_5.cpp.o
-.PHONY : step_5.o
+step_6.o: step_6.cpp.o
+.PHONY : step_6.o
 
 # target to build an object file
-step_5.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/step_5.dir/build.make CMakeFiles/step_5.dir/step_5.cpp.o
-.PHONY : step_5.cpp.o
+step_6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/step_6.dir/build.make CMakeFiles/step_6.dir/step_6.cpp.o
+.PHONY : step_6.cpp.o
 
-step_5.i: step_5.cpp.i
-.PHONY : step_5.i
+step_6.i: step_6.cpp.i
+.PHONY : step_6.i
 
 # target to preprocess a source file
-step_5.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/step_5.dir/build.make CMakeFiles/step_5.dir/step_5.cpp.i
-.PHONY : step_5.cpp.i
+step_6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/step_6.dir/build.make CMakeFiles/step_6.dir/step_6.cpp.i
+.PHONY : step_6.cpp.i
 
-step_5.s: step_5.cpp.s
-.PHONY : step_5.s
+step_6.s: step_6.cpp.s
+.PHONY : step_6.s
 
 # target to generate assembly for a file
-step_5.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/step_5.dir/build.make CMakeFiles/step_5.dir/step_5.cpp.s
-.PHONY : step_5.cpp.s
+step_6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/step_6.dir/build.make CMakeFiles/step_6.dir/step_6.cpp.s
+.PHONY : step_6.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... step_5"
-	@echo "... step_5.o"
-	@echo "... step_5.i"
-	@echo "... step_5.s"
+	@echo "... step_6"
+	@echo "... step_6.o"
+	@echo "... step_6.i"
+	@echo "... step_6.s"
 .PHONY : help
 
 
